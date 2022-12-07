@@ -1,0 +1,17 @@
+<html>
+    <h1>The dinosaur asks you a second question</h1>
+    <p>What is the first letter of the alphabet A Or Z?</p>
+<p><input type="text" id="answer" value="type answer here"></p>
+<p><button onclick="checkAnswer()">Check Answer</button></p>
+
+<script>
+    function checkAnswer() {
+         var answer = document.getElementById("answer").value 
+         if(answer==="A") {
+              alert("correct answer!")
+              window.location.href="/dinosaur3.html"
+         }
+    }
+   </script>
+
+</html>
