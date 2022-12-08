@@ -1,6 +1,7 @@
 <html>
     <h1>The dinosaur asks you a fourth question</h1>
     <P>I'm Big Or Small?</P>
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmgEYBanHpBHlK0TBf2pO_Xe7EkQU7ONhpNKzCDwdEU16OWyWrU3o0ypfOqfTDsys8Sc&usqp=CAU" height="auto" width="500"></p>
     <p><input type="text" id="answer" value="type answer here"></p>
 <p><button onclick="checkAnswer()">Check Answer</button></p>
 
@@ -10,6 +11,9 @@
          if(answer==="Big") {
               alert("correct answer!")
               window.location.href="/dinosaur5.html"
+         } else {
+            alert("WRONG! GO BACK TO SCHOOL")
+            window.location.href="/dinosaureat.html"
          }
     }
    </script>

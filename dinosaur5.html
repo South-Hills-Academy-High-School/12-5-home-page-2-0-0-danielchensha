@@ -1,6 +1,8 @@
 <html>
     <h1>The dinosaur asks you a fifth question</h1>
     <p>What is my favorite food Meat or Vegetables?</p>
+    <p><img src="https://png.pngtree.com/png-vector/20221025/ourlarge/pngtree-meat-beef-cartoon-steak-food-png-image_6368935.png"height="auto" width="300"></p>
+    <p><img src="https://png.pngtree.com/element_our/20190530/ourlarge/pngtree-vegetable-cabbage-cartoon-illustration-image_1241787.jpg"height="auto" width="300"></p>
     <p><input type="text" id="answer" value="type answer here"></p>
 <p><button onclick="checkAnswer()">Check Answer</button></p>
 
@@ -9,7 +11,10 @@
          var answer = document.getElementById("answer").value 
          if(answer==="Meat") {
               alert("correct answer!")
-              window.location.href="/dinosaur3.html"
+              window.location.href="/ending.html"
+         } else {
+            alert("WRONG! GO BACK TO SCHOOL")
+            window.location.href="/dinosaureat.html"
          }
     }
    </script>
